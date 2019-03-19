@@ -1,0 +1,38 @@
+
+
+
+1. Download the repository from Github
+
+2. Copy  this zip file in D:\ drive & unzip into a folder here.
+
+3. You will find 8 folders
+
+4. Open the Driver Script file from the folder : "7_DRIVER_SCRIPT" using "Add Existing Test"
+
+5. Open the following 2 function library files from the folder : "1_HFW_FUNCTION_LIBRARY_FILE"
+
+5.1) HFW_FLF_2.qfl
+5.2) GLOBAL_DECLARATIONS_2.vbs
+
+6. Link the two FLFs to the Driver Script by going to File -> Settings -> Resources
+
+7. Open the FLF - "GLOBAL_DECLARATIONS" file.
+
+8. Assign the path & filename of "3_HFW_CONTROLLER_FILE" to the following variable in the "GLOBAL_DECLARATIONS" file.
+e.g. controller_file_path_name = "D:\10.UFT_TESTSCRIPTS\8_UFT_FRAMEWORK_HYBRID_1\3_HFW_CONTROLLER_FILE\1_HFW_CONTROLLER_FILE.xlsx"
+
+
+9. Open the HFW Controller file from the folder "3_HFW_CONTROLLER_FILE"
+    
+10. Goto the sheet - "TESTDATA_LOGIN" in the file - "1_HFW_CONTROLLER_FILE.xlsx"
+
+11. Update the email id(login id), password & "Expected Value/Profile Name"
+
+12. Goto the sheet - "KEYWORD" in "1_HFW_CONTROLLER_FILE.xlsx"
+
+13. Update the AUT URL at cell no. K3 under "TEST_DATA" column.
+
+14. Goto UFT & open Driver Script.
+
+
+
